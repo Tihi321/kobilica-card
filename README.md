@@ -16,6 +16,11 @@ npm create astro@latest -- --template basics
 
 Inside of your Astro project, you'll see the following folders and files:
 
+Header - Title
+Image - About
+Services - Boxes
+Team - AI Assistants
+
 ```text
 /
 ├── public/
