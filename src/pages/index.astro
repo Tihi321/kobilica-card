@@ -46,6 +46,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
               programmer and coder specializing in innovative applications.
             </div>
             <div>Blog: <a href="https://tihomir-selak.from.hr/">tihomir-selak.from.hr</a></div>
+            <div>News: <a href="https://times.kobilica.hr/">times.kobilica.hr</a></div>
             <div class="socials">
               <a href="mailto:tknox.dr@gmail.com" target="_blank">
                 <svg
@@ -149,7 +150,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
       header {
         text-transform: uppercase;
         text-align: center;
-        margin-bottom: 32px;
+        margin-bottom: 22px;
 
         .title {
           font-size: 64px;
@@ -270,8 +271,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 
           img {
             display: block;
-            opacity: 0.9;
             width: 100%;
+            filter: grayscale(1) sepia(0.2);
           }
         }
       }
@@ -300,6 +301,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
           height: 150px;
           object-fit: contain;
           border-radius: 50%;
+          filter: grayscale(1) sepia(0.2);
         }
 
         .member-info {
